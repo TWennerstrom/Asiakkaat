@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+#listaus tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+}
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+.oikealle{
+	text-align: right;
+}
+.vasemmalle{
+	text-align: left;
+}
+#uusiAsiakas, #takaisin{
+	color: white;	
+	cursor: pointer;	
+}
